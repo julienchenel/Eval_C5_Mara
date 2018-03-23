@@ -1,0 +1,103 @@
+.navbar-top {
+   background: #E1EFE0;
+   /* height: 80px; */
+}
+
+a,
+a:hover {
+   color: #7DAB7A;
+}
+
+.menu-logo {
+   display: flex;
+   justify-content: center;
+}
+
+.logo {
+   height: 80px;
+}
+
+.geo-title>h5>i {
+   color: #7DAB7A;
+   cursor: pointer;
+}
+
+.geo-title>h5>i:hover,
+.geo-title>h5>i:active {
+   color: #DDA771;
+}
+
+.div-left {
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+}
+
+.stock>h5>i {
+   color: #7DAB7A;
+   cursor: pointer;
+   padding-left: 10px;
+}
+
+.stock>h5>i:hover,
+.stock>h5>i:active {
+   color: #DDA771;
+}
+
+.div-left>.table-items {
+   background: rgb(248, 248, 248);
+   height: 100%;
+}
+
+#name-column {
+   width: 70%;
+}
+
+.table-items {
+   padding-top: 20px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.table td:nth-last-child() {
+   text-align: center;
+}
+
+thead {
+   background: white;
+}
+
+.right-panel {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   padding: 0px;
+   background: rgb(248, 248, 248);
+}
+
+.right-panel>h5 {
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.right-panel-section-geo>h5 {
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.action-buttons {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 10px;
+   border-bottom: 3px white solid;
+}
+
+.new-sale {
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.geo-title>h5 {
+   padding-top: 20px;
+   padding-left: 20px;
+}
